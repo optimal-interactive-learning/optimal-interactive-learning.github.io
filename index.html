@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Conformalized Interactive Imitation Learning: Handling Expert Shift and Intermittent Feedback</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Optimal Interactive Learning on the Job via Facility Location Planning</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="http://shivamvats.com/" target="_blank">Shivam Vats<sup>1</sup>*</a>,
+              </span>
+              <span class="author-block">
+                  <a href="https://mzhao98.github.io/" target="_blank">Michelle Zhao<sup>2</sup>*</a>,
+              </span>
+              <span class="author-block">
+                  <a href="https://www.ri.cmu.edu/ri-people/patrick-callaghan/" target="_blank">Patrick Callaghan<sup>2</sup></a>,
+              </span>
+              <span class="author-block">
+                  <a href="https://saulbatman.github.io/" target="_blank">Mingxi Jia<sup>1</sup></a>,
+              </span>
+              <span class="author-block">
+                  <a href="http://www.cs.cmu.edu/~maxim/" target="_blank">Maxim Likhachev<sup>2</sup></a>,
+              </span>
+              <span class="author-block">
+                  <a href="https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/" target="_blank">Oliver Kroemer<sup>2</sup></a>,
+              </span>
+              <span class="author-block">
+                  <a href="https://cs.brown.edu/people/gdk/" target="_blank">George Konidaris<sup>1</sup></a>
+              </span>
+
+
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+
+                    <span class="author-block"><sup>1</sup>Brown University<br></span>,
+                    <span class="author-block"><sup>2</sup>Carnegie Mellon University<br></span>
+                    <br>
+                    <span class="author-block">Published at RSS 2025</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="static/pdfs/manuscript.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (coming soon!)</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2505.00490" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Collaborative robots have the ability to adapt and improve their behavior by learning from their human users. By interactively learning on the job, these robots can both acquire new motor skills and customize their behavior to personal user preferences. However, for this paradigm to be viable, there must be a balance between teaching the robot necessary skills, minimizing user burden, and maintaining task progress. We propose COIL, a novel polynomial-time interaction planner that explicitly minimizes human effort while ensuring the completion of a given sequence of tasks according to hidden user preferences. When user preferences are known, we formulate this planning-to-learn problem as an uncapacitated facility location problem. COIL utilizes efficient approximation algorithms for facility location to plan in the case of unknown preferences in polynomial time. In contrast, prior methods do not guarantee minimization of human effort nor consider the inherently collaborative nature of learning on the job, in which timely task execution may require the robot to forego learning and instead request human contributions. Simulated and physical experiments on manipulation tasks show that our framework significantly reduces the amount of work allocated to the human while maintaining successful task completion.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <br />
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/RSS_Supp.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Our key theoretical contribution is a novel formulation of multi-task interactive robot learning as an instance of the uncapacitated facility location (UFL) problem.
+        Different from prior works, our formulation is cost-optimal and jointly minimizes human burden during learning and deployment.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+  <!-- Teaser video-->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <br />
+      <div class="columns is-centered has-text-centered">
+      <div style="text-align: center;">
+        <img src="static/images/ufl_formulation_2.png" width="75%"/>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        Facility location formulation. Tasks 𝛕 are demands to be satisfied.
+        Facilities correspond to interactive actions available for every task. We highlight facilities for
+        𝛕<sub>2</sub>: Human facility can only service 𝛕<sub>2</sub>. Skill facility can service similar
+        future tasks 𝛕<sub>2</sub>, 𝛕<sub>3</sub>, 𝛕<sub>4</sub>. Robot facility cannot service any task as the robot hasn't
+        learned a skill yet. Furthermore, none of the facilities can service past tasks.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+    <!-- Teaser video-->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <br />
+      <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Results: Gridworld Domain</h2></div>
+      <div style="text-align: center;">
+        <img src="static/images/gridworld_table.png" width="75%"/>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        In the Gridworld domain, we find that COIL makes fewer
+preference queries than the confidence-based baselines because COIL
+only asks for human preferences if it believes that this information
+will be useful later. Format is mean(standard deviation).
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <br />
+      <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Results: Manipulation Domain</h2></div>
+      <div style="text-align: center;">
+        <img src="static/images/gridworld_table.png" width="75%"/>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        Results on the manipulation domain. On average, COIL
+plans interactions that result in 7% to 18% reduction in cost compared
+to the best performing baseline. The improvement over baselines is
+particularly marked when the cost of teaching is more expensive
+than assigning the task to the human, i.e, medium and high cost
+profiles. The reported statistics are averaged over 10 interactions with
+30 randomly sampled tasks each.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+  <section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <br />
+      <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Results: Real World Conveyor Belt Domain</h2></div>
+      <div style="text-align: center;">
+        <img src="static/images/real.png" width="75%"/>
+      </div>
+      <h2 class="subtitle has-text-centered">
+       Results on a physical conveyor. We ran experiments
+with 5 different task sequences, each with 20 objects, with COIL
+and CADL. We observed teaching failure on the white mug (pos-
+sibly because its shiny surface made camera-based pose estimation
+difficult). Hence, we report the run with teaching failure separately
+from the other 4 runs. COIL was able to achieve significantly lower
+cost than the baseline in both situations. CADL especially struggled
+in the case of teaching failure as it repeatedly requested to be taught
+the mug skill.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+
+        @article{vats2025optimal,
+          title={Optimal Interactive Learning on the Job via Facility Location Planning},
+          author={Vats, Shivam and Zhao, Michelle and Callaghan, Patrick and Jia, Mingxi and Likhachev, Maxim and Kroemer, Oliver and Konidaris, George},
+          journal={Robotics: Systems and Science},
+          year={2025}
+        }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+
+
+
+
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
